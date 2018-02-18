@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
@@ -36,12 +36,22 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="144" column="42" lean-forward="false" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
+            <state relative-caret-position="158">
+              <caret line="145" column="26" lean-forward="false" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
               <folding>
-                <element signature="e#2606#3252#0" expanded="true" />
-                <element signature="e#3251#3252#0" expanded="true" />
+                <element signature="e#2685#3331#0" expanded="true" />
+                <element signature="e#3330#3331#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlaylistAdapter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/adapters/PlaylistAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="72" column="71" lean-forward="false" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,12 +59,22 @@
       <file leaf-file-name="DetailActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/DetailActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="329">
+              <caret line="42" column="86" lean-forward="false" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
               <folding>
-                <element signature="e#1054#1448#0" expanded="true" />
-                <element signature="e#1447#1448#0" expanded="true" />
+                <element signature="e#1422#1903#0" expanded="true" />
+                <element signature="e#1902#1903#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DownloadIntentService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/DownloadIntentService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,6 +84,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>onc</find>
+      <find>get</find>
+      <find>getIn</find>
+      <find>if</find>
     </findStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -1479,6 +1502,7 @@
       <list>
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/DetailActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/adapters/PlaylistAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/MainActivity.java" />
       </list>
     </option>
@@ -1558,6 +1582,28 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="musicmachine" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android-intents-broadcast-receivers" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="musicmachine" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.android.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="adapters" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -1657,7 +1703,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518935148740" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518936460665" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -1705,7 +1751,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518935148741" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518936460665" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1888,7 +1934,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518935148757" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1518936460665" />
       </method>
     </configuration>
     <list size="1">
@@ -2021,24 +2067,40 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/adapters/PlaylistAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="72" column="71" lean-forward="false" selection-start-line="72" selection-start-column="71" selection-end-line="72" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/DownloadIntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/DetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="329">
+          <caret line="42" column="86" lean-forward="false" selection-start-line="42" selection-start-column="86" selection-end-line="42" selection-end-column="86" />
           <folding>
-            <element signature="e#1054#1448#0" expanded="true" />
-            <element signature="e#1447#1448#0" expanded="true" />
+            <element signature="e#1422#1903#0" expanded="true" />
+            <element signature="e#1902#1903#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/teamtreehouse/musicmachine/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="144" column="42" lean-forward="false" selection-start-line="144" selection-start-column="42" selection-end-line="144" selection-end-column="42" />
+        <state relative-caret-position="158">
+          <caret line="145" column="26" lean-forward="false" selection-start-line="145" selection-start-column="26" selection-end-line="145" selection-end-column="26" />
           <folding>
-            <element signature="e#2606#3252#0" expanded="true" />
-            <element signature="e#3251#3252#0" expanded="true" />
+            <element signature="e#2685#3331#0" expanded="true" />
+            <element signature="e#3330#3331#0" expanded="true" />
           </folding>
         </state>
       </provider>
