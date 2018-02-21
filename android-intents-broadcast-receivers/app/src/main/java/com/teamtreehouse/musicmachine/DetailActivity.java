@@ -17,7 +17,7 @@ public class DetailActivity extends AppCompatActivity {
 
     private Song mSong;
     private RelativeLayout mRootLayout;
-    public static final String SHARE_SONG = "com.teamthreehouse.intent.action.SHARE_SONG";
+    public static final String SHARE_SONG = "com.teamtreehouse.intent.action.SHARE_SONG";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

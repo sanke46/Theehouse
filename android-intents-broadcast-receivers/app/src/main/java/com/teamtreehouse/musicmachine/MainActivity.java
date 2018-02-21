@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = MainActivity.class.getSimpleName();
 
     public static final String EXTRA_TITLE = "EXTRA_TITLE";
-    public static final String EXTRA_SONG  = "song";
+    public static final String EXTRA_SONG  = "EXTRA_SONG";
     public static final int REQUEST_FAVORITE = 0;
     public static final String EXTRA_FAVORITE = "EXTRA_FAVORITE";
     public static final String EXTRA_LIST_POSITION = "EXTRA_LIST_POSITION";
