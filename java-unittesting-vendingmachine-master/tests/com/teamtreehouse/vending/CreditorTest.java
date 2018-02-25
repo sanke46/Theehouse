@@ -14,6 +14,8 @@ public class CreditorTest {
         creditor = new Creditor();
     }
 
+
+
     @Test
     public void addingFundsIncrementsAvailableFunds() throws Exception {
         creditor.addFunds(25);
