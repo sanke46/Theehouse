@@ -27,7 +27,6 @@ public class VendingMachineTest {
     public void vendingWhenStockedReturnsItem() throws Exception {
         machine.addMoney(75);
         Item item = machine.vend("A1");
-
         assertEquals("Twinkies", item.getName());
     }
 }
